@@ -8,7 +8,7 @@ export const RESUME_DATA = {
   about: "Fullstack Web Developer",
   summary: "Results-driven professional with success in web development. Strong analytical, communication, and adaptability skills. Ready to contribute to a dynamic, growth-focused organization.",
   avatarUrl: "https://avatars.githubusercontent.com/u/5215523",
-  personalWebsiteUrl: "https://fcgregor.io",
+  personalWebsiteUrl: "https://fcgregorio.com",
   contact: {
     email: "fcgregorio@gmail.com",
     tel: "+639273066819",
