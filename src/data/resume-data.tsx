@@ -65,6 +65,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Diliman Technology Laboratories, Inc.",
+      link: null,
       title: "Android Developer",
       badges: [],
       start: "2013",
