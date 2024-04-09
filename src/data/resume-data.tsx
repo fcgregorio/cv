@@ -84,6 +84,9 @@ export const RESUME_DATA = {
     "Java/Kotlin",
     "Python",
     "Django",
+    "Docker",
+    "PHP",
+    "Laravel",
   ],
   projects: [
     {
