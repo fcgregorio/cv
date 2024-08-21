@@ -82,6 +82,7 @@ export const RESUME_DATA = {
     "Node.js",
     "Tailwind CSS",
     "Java/Kotlin",
+    "Spring/Spring Boot",
     "Python",
     "Django",
     "Docker",
