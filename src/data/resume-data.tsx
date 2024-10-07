@@ -97,7 +97,7 @@ export const RESUME_DATA = {
       title: "JimakuAI",
       start: "2022",
       end: "2023",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Tailwind CSS"],
+      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
       description: "AI-powered English-Japanese subtitle translations",
       link: {
         label: "jimaku.ai",
@@ -108,7 +108,7 @@ export const RESUME_DATA = {
       title: "JBJ Trading",
       start: "2021",
       end: "2022",
-      techStack: ["Side Project", "TypeScript", "React", "MUI", "Express.js"],
+      techStack: ["TypeScript", "React", "MUI", "Express.js"],
       description: "Inventory Management System",
     },
     {
@@ -132,7 +132,7 @@ export const RESUME_DATA = {
       for: "UP-TCAGP",
       start: "2016",
       end: "2016",
-      techStack: ["Side Project", "Python"],
+      techStack: ["Python"],
       description: "Python Scripting Consultant",
     },
     {
