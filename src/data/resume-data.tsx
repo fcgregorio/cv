@@ -88,6 +88,7 @@ export const RESUME_DATA = {
     "Django",
     "Docker",
     "AWS",
+    "SST",
     "PHP",
     "Laravel",
   ],
