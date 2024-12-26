@@ -30,8 +30,8 @@ export const RESUME_DATA = {
     {
       school: "Technological Institute of the Philippines - Quezon City",
       degree: "Bachelor's Degree in Computer Science",
-      start: "January 2019",
-      end: "June 2022",
+      start: "Jan 2019",
+      end: "Jun 2022",
     },
   ],
   work: [
