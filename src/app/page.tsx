@@ -145,7 +145,7 @@ export default function Page() {
                 <CardContent className="mt-2 text-xs">
                   <ul className="list-inside list-disc">
                     {work.description.map((description) => (
-                      <li>{description}</li>
+                      <li key={description}>{description}</li>
                     ))}
                   </ul>
                 </CardContent>
