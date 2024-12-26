@@ -6,7 +6,8 @@ export const RESUME_DATA = {
   location: "Quezon City, Metro Manila, Philippines",
   locationLink: "https://www.google.com/maps/place/Quezon+City",
   about: "Fullstack Web Developer",
-  summary: "Results-driven professional with success in web development. Strong analytical, communication, and adaptability skills. Ready to contribute to a dynamic, growth-focused organization.",
+  summary:
+    "Results-driven professional with success in web development. Strong analytical, communication, and adaptability skills. Ready to contribute to a dynamic, growth-focused organization.",
   avatarUrl: "https://avatars.githubusercontent.com/u/5215523",
   personalWebsiteUrl: "https://fcgregorio.com",
   contact: {
@@ -29,8 +30,8 @@ export const RESUME_DATA = {
     {
       school: "Technological Institute of the Philippines - Quezon City",
       degree: "Bachelor's Degree in Computer Science",
-      start: "2018",
-      end: "2022",
+      start: "January 2019",
+      end: "June 2022",
     },
   ],
   work: [
@@ -38,40 +39,53 @@ export const RESUME_DATA = {
       company: "Deployed Philippines Inc. ",
       link: "https://deployedstaff.com",
       title: "Fullstack Web Developer",
-      badges: ["Remote"],
-      start: "2022",
-      end: "Current",
-      description:
-        "Worked under a client to maintain a diverse range of Jira plugin offerings",
+      badges: ["Remote", "TypeScript", "Java", "React"],
+      start: "Aug 2022",
+      end: "Present",
+      description: [
+        "Maintained and enhanced a diverse range of Jira plugin offerings for enterprise clients",
+        "Delivered scalable web solutions using React, Java, and GCP",
+        "Resolved complex issues and enhanced code quality using best development practices",
+      ],
     },
     {
       company: "Eplayment Corp.",
       link: "https://www.eplayment.co",
       title: "Web Developer Intern",
-      badges: ["Remote"],
-      start: "2022",
-      end: "2022",
-      description: "Engaged in developing the company's internal tools",
+      badges: ["Hybrid", "JavaScript", "PHP", "Laravel"],
+      start: "Feb 2022",
+      end: "Apr 2022",
+      description: [
+        "Built and optimized internal tools to streamline workflows using JavaScript and Laravel",
+        "Conducted testing and troubleshooting to ensure smooth platform functionality",
+      ],
     },
     {
       company: "Togoparts Pte. Ltd.",
       link: "https://www.togoparts.com",
       title: "Android Developer",
-      badges: ["Remote"],
-      start: "2016",
-      end: "2017",
-      description:
-        "Improved and maintained the company's native Android application",
+      badges: ["Remote", "Java", "Android"],
+      start: "Oct 2016",
+      end: "Jul 2017",
+      description: [
+        "Improved and maintained the company’s native Android application, ensuring seamless user experiences",
+        "Worked on implementing new features and integrating APIs to enhance app functionality",
+        "Refactored legacy code and resolved critical bugs improving user satisfaction",
+      ],
     },
     {
       company: "Diliman Technology Laboratories, Inc.",
       link: null,
       title: "Android Developer",
-      badges: [],
-      start: "2013",
-      end: "2016",
-      description:
-        "Participated in all phases of projects which include design, development, testing, and deployment",
+      badges: ["Java", "Kotlin", "Android", "Python", "Django"],
+      start: "Apr 2013",
+      end: "Jul 2016",
+      description: [
+        "Designed, developed, and deployed native Android applications for various projects",
+        "Worked closely with the backend team to design and develop robust APIs using Django, ensuring integration with Android frontend",
+        "Collaborated with the team concerning design, testing, and deployment to ensure app quality and timely delivery",
+        "Monitored app performance and implemented fixes to enhance reliability and user satisfaction",
+      ],
     },
   ],
   skills: [
@@ -97,7 +111,7 @@ export const RESUME_DATA = {
       title: "JimakuAI",
       start: "2022",
       end: "2023",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+      techStack: ["TypeScript", "React", "Next.js", "Tailwind CSS"],
       description: "AI-powered English-Japanese subtitle translations",
       link: {
         label: "jimaku.ai",
@@ -116,7 +130,7 @@ export const RESUME_DATA = {
       for: "Refocus Marketing",
       start: "2020",
       end: "2021",
-      techStack: ["Django"],
+      techStack: ["Python", "Django", "TypeScript", "Vue.js"],
       description: "Baked goods marketplace",
     },
     {
@@ -124,7 +138,7 @@ export const RESUME_DATA = {
       for: "Beebeelee Express Corp.",
       start: "2017",
       end: "2018",
-      techStack: ["Android"],
+      techStack: ["Java", "Android"],
       description: "E-commerce app",
     },
     {
@@ -140,7 +154,7 @@ export const RESUME_DATA = {
       for: "Yokohama Tire Philippines, Inc.",
       start: "2016",
       end: "2016",
-      techStack: ["Android"],
+      techStack: ["Kotlin", "Android", "Python", "Django"],
       description: "Customer warranty and data acquisition app",
     },
     {
@@ -148,15 +162,16 @@ export const RESUME_DATA = {
       for: "EVWealth, Inc.",
       start: "2016",
       end: "2016",
-      techStack: ["Android"],
-      description: "A tool for simplifying and easing the conducting of quality assurance surveys for the company's electric vehicle fleet",
+      techStack: ["Kotlin", "Android", "Python", "Django"],
+      description:
+        "A tool for simplifying and easing the conducting of quality assurance surveys for the company's electric vehicle fleet",
     },
     {
       title: "Swap Charge",
       for: "EVWealth, Inc.",
       start: "2016",
       end: "2016",
-      techStack: ["Android"],
+      techStack: ["Kotlin", "Android", "Python", "Django"],
       description: "Battery transactions register and charge-logging app",
     },
     {
@@ -164,8 +179,9 @@ export const RESUME_DATA = {
       for: "Climate Change Commission",
       start: "2013",
       end: "2016",
-      techStack: ["Android"],
-      description: "A tool to aid communities and local governments in planning land use and development, considering measures to adapt to climate change effects in their areas",
+      techStack: ["Java", "Android", "Python", "Django"],
+      description:
+        "A tool to aid communities and local governments in planning land use and development, considering measures to adapt to climate change effects in their areas",
     },
   ],
 } as const;
