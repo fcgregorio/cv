@@ -41,7 +41,7 @@ export const RESUME_DATA = {
       title: "Fullstack Web Developer",
       badges: ["Remote", "TypeScript", "Java", "React"],
       start: "Aug 2022",
-      end: "Present",
+      end: "Feb 2025",
       description: [
         "Maintained and enhanced a diverse range of Jira plugin offerings for enterprise clients",
         "Delivered scalable web solutions using React, Java, and GCP",
